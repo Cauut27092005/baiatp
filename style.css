@@ -1,0 +1,142 @@
+.chinh{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}.chinh>.phan1{
+    width: 50%;
+    margin: 50px;
+}.phan1>a{
+    color: lightgreen;
+    float: right;
+    margin: 10px;
+}
+.phan1>a:hover{
+    color: blue;
+}.chinh>img{
+    width: 25%;
+    height: 100px;
+}
+.menu {
+    width: 100%;
+    height: auto;
+    background-color: rgb(42, 148, 42);
+  }
+  .menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu ul li {
+    list-style: none;
+    padding: 0 10px;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+  }
+  .menu ul li a:hover {
+    color: yellow;
+  }.than{
+    height: 800px;
+    width: 100%;
+}.than>.khung5{
+    text-align: center;
+}.than>img{
+    height: 300px;
+    width: 100%;
+}.khung{
+    display: flex;
+}.khung1{
+    border: 0px;
+    width: 30%;
+    height: 450px;
+    margin: 10px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+}.khung1>img{
+    width: 100%;
+}.khung2{
+    width: 100%;
+    height: 25px;
+    padding: 5 5 5 5px;
+    background-color: rgb(100, 165, 34);
+    color: white;
+}.chu{
+    color: red;
+}.khung3{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}.khung4{
+    border-radius: 5px;
+    width: 23%;
+    height: 350px;
+    margin: 10px;
+    background-color: lightgray;
+}.khung4>img{
+    width: 100%;
+}.khung5{
+    padding-top: 1px;
+    margin: 10px;
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    color: white;
+}.khung5:hover{
+    background-color: darkslateblue;
+    color: yellow;
+
+}.banner{
+    width: 100%;
+}.banner>img{
+    width: 100%;
+}.khung1:hover{
+    background-color: pink;
+}.khung4:hover{
+    background-color: pink;
+}
+@media screen and (max-width: 600px) {
+    .chinh>img{
+        width: 50%;
+        height: auto;
+    }
+    .khung{
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .khung1{
+        width: 560px ;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .khung3{
+        flex-wrap: wrap;
+    }
+    .khung4{
+        width: 45%;
+        height: auto;
+    }.menu{
+        height: auto;
+        margin: 5px;
+    }
+    .menu ul {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+      }
+      .menu ul li {
+        padding: 10px 0;
+      }
+      .than>img{
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+      }
+}
